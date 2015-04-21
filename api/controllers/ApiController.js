@@ -7,5 +7,13 @@
 
 module.exports = {
 	
+	sendmail: function(req, res) {
+		var options = {
+			to: '7jagjag@gmail.com',
+			from: 'george@node-server',
+			body: "hi man",
+			subject: "sendin mail from node"
+		}
+	}
 };
 
