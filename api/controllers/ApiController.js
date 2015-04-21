@@ -14,7 +14,7 @@ module.exports = {
 		var transporter = nodemailer.createTransport();
 		var options = {
 			to: '7jagjag@gmail.com',
-			from: 'george@node-server',
+			from: 'no-reply@yoosync.fr',
 			html: "<b>hi man</b>",
 			subject: "sendin mail from node"
 		}
